@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="factories.css" />
+		<link rel="icon" type="image/x-icon" href="Flora Logo.png" />
+		<title>FloraOnePage</title>
+		<script
+			src="https://code.jquery.com/jquery-3.7.1.min.js"
+			integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<!--  -->
+
+		<!--  -->
+
+		<!-- NAV -->
+
+		<nav id="sidebar">
+			<ul>
+				<!--  -->
+
+				<!--  -->
+
+				<!-- LOGO -->
+
+				<li>
+					<span class="logo">FloraOnePage</span>
+					<button onclick="toggleSidebar()" id="toggle-btn">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							height="24px"
+							viewBox="0 -960 960 960"
+							width="24px"
+							fill="#e8eaed"
+						>
+							<path
+								d="M440-240 200-480l240-240 56 56-183 184 183 184-56 56Zm264 0L464-480l240-240 56 56-183 184 183 184-56 56Z"
+							/>
+						</svg>
+					</button>
+				</li>
+
+				<!--  -->
+
+				<!--  -->
+
+				<!-- END LOGO -->
+
+				<li>
+					<a href="index.html">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							height="24px"
+							viewBox="0 -960 960 960"
+							width="24px"
+							fill="#e8eaed"
+						>
+							<path
+								d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"
+							/>
+						</svg>
+						<span>Home</span>
+					</a>
+				</li>
+				<li class="active">
+					<a href="factories.html">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							height="24px"
+							viewBox="0 -960 960 960"
+							width="24px"
+							fill="#e8eaed"
+						>
+							<path
+								d="M80-80v-481l280-119v80l200-80v120h320v480H80Zm80-80h640v-320H480v-82l-200 80v-78l-120 53v347Zm280-80h80v-160h-80v160Zm-160 0h80v-160h-80v160Zm320 0h80v-160h-80v160Zm280-320H680l40-320h120l40 320ZM160-160h640-640Z"
+							/>
+						</svg>
+						<span>Factories</span>
+					</a>
+				</li>
+
+				<li>
+					<a href="contacts.html">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							height="24px"
+							viewBox="0 -960 960 960"
+							width="24px"
+							fill="#e8eaed"
+						>
+							<path
+								d="M185-80q-17 0-29.5-12.5T143-122v-105q0-90 56-159t144-88q-40 28-62 70.5T259-312v190q0 11 3 22t10 20h-87Zm147 0q-17 0-29.5-12.5T290-122v-190q0-70 49.5-119T459-480h189q70 0 119 49t49 119v64q0 70-49 119T648-80H332Zm148-484q-66 0-112-46t-46-112q0-66 46-112t112-46q66 0 112 46t46 112q0 66-46 112t-112 46Z"
+							/>
+						</svg>
+						<span>Contacts</span>
+					</a>
+				</li>
+
+				<li>
+					<a href="qa.html">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							height="24px"
+							viewBox="0 -960 960 960"
+							width="24px"
+							fill="#e8eaed"
+						>
+							<path
+								d="M240-40v-329L110-580l185-300h370l185 300-130 211v329l-240-80-240 80Zm80-111 160-53 160 53v-129H320v129Zm20-649L204-580l136 220h280l136-220-136-220H340Zm98 383L296-558l57-57 85 85 169-170 57 56-226 227ZM320-280h320-320Z"
+							/>
+						</svg>
+						<span>QA</span>
+					</a>
+				</li>
+				<li>
+					<a href="orders.html">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							height="24px"
+							viewBox="0 -960 960 960"
+							width="24px"
+							fill="#e8eaed"
+						>
+							<path
+								d="M240-40v-329L110-580l185-300h370l185 300-130 211v329l-240-80-240 80Zm80-111 160-53 160 53v-129H320v129Zm20-649L204-580l136 220h280l136-220-136-220H340Zm98 383L296-558l57-57 85 85 169-170 57 56-226 227ZM320-280h320-320Z"
+							/>
+						</svg>
+						<span>Orders & Delivery <br />Requirements</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+
+		<!--  -->
+
+		<!--  -->
+
+		<!--  -->
+
+		<!--  -->
+
+		<!--  -->
+
+		<!------------------------- MAIN ------------------------->
+
+		<main>
+			<div class="container">
+				<h2 id="#Sap_sec">KATOWICE (KTW)</h2>
+
+				<p>
+					<strong>Main Contact:</strong> anna.wojcinska@florafg.com &
+					grzegorz.katerwy@florafg.com
+				</p>
+				<p>
+					<strong> Logistics:</strong> adrianna.warmuzinska@florafg.com &
+					dominika.gora@florafg.com
+				</p>
+				<p>
+					<strong> QA Contact:</strong> wiktoria.wilk@florafg.com &
+					edyta.szczepanik@florafg.com
+				</p>
+				<p>
+					<strong> Delivery address:</strong>
+					<button id="batonik">click</button>
+				</p>
+				<div id="oils_per_supplier">
+					Flora Food Manufacturing Poland sp. z o.o. <br />
+					Kolodziejska 2 <br />
+					Katowice 40-386 <br />
+					Poland
+				</div>
+			</div>
+			<div class="container">
+				<h2>PRATAU (PRT)</h2>
+
+				<p><strong>Main Contact:</strong> dawid.janik@florafg.com</p>
+				<p><strong> Logistics:</strong> natalia.trzeciak@florafg.com</p>
+				<p>
+					<strong> QA Contact:</strong> katja.seume@florafg.com &
+					carmen.neumann@florafg.com
+				</p>
+				<p>
+					<strong> Delivery address:</strong>
+					<button id="batonik2">click</button>
+				</p>
+				<div id="oils_per_supplier2">
+					Upfield Luhterstadt Wittenberg <br />
+					Thedinghauser strasse 3 <br />
+					Pratau 06888 <br />
+					Germany
+				</div>
+			</div>
+
+			<div class="container">
+				<h2>KLEVE (KLE)</h2>
+				<p><strong>Main Contact:</strong> anna.wojcinska@florafg.com</p>
+				<p><strong> Logistics:</strong> angelika.bogdan@florafg.com</p>
+				<p><strong> QA Contact:</strong> justyna.switala@florafg.com</p>
+			</div>
+			<div class="container">
+				<h2>HELSINGBORG (HSG)</h2>
+				<p><strong>Main Contact:</strong> grzegorz.katerwy@florafg.com</p>
+				<p><strong> Logistics:</strong> natalia.trzeciak@florafg.com</p>
+				<p><strong> QA Contact:</strong> camilla.johnsson@florafg.com</p>
+			</div>
+
+			<div class="container">
+				<h2>SANTA IRIA (STI)</h2>
+
+				<p><strong>Main Contact:</strong> magdalena.jagielka@florafg.com</p>
+				<p><strong> Logistics:</strong> dominika.gora@florafg.com</p>
+				<p>
+					<strong> QA Contact:</strong> sandra.borges@florafg.com &
+					joana.garcia@florafg.com & vitor.procopio@florafg.com
+				</p>
+
+				<p></p>
+			</div>
+
+			<div class="container">
+				<h2>COOPACKERS</h2>
+				<p><strong> Main Contact:</strong> magdalena.jagielka@florafg.com</p>
+				<p><strong> Logistics:</strong> natalia.trzeciak@florafg.com</p>
+				<p><strong> QA Contact:</strong> -</p>
+			</div>
+
+			<!--  -->
+
+			<!-------------------------------------- SECTION OILS -------------------------------------->
+		</main>
+
+		<script type="text/javascript" src="factories.js" defer></script>
+	</body>
+</html>
