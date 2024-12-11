@@ -308,7 +308,7 @@ h2 {
 	left: -75px;
 	top: calc(50% - 75px);
 	transition: 0.5s ease-in-out;
-	background-color: #7748e4;
+	background-color: #9672e9;
 }
 .container2 .card .imgBx:before {
 	content: attr(data-text);
@@ -336,22 +336,30 @@ h2 {
 .container2 .card .content {
 	position: absolute;
 	right: 0;
-	width: calc(100% - 150px);
+	width: calc(100% - 100px);
 	height: 100%;
 	padding: 20px;
 }
 .container2 .card .content h3 {
 	margin-bottom: 5px;
 	font-size: 24px;
-	color: white;
+	color: #fff;
 }
 .container2 .card .content a {
 	display: inline-block;
 	margin-top: 10px;
 	padding: 5px 10px;
-	background-color: #333;
+	background-color: #9672e9;
 	text-decoration: none;
-	color: white;
+	color: #fff;
+}
+
+.container2 .card .content a:hover {
+	background-color: rgb(169, 145, 224);
+}
+
+#paragraf {
+	color: #e6dddd;
 }
 
 @media (max-width: 1517px) {
@@ -368,4 +376,45 @@ h2 {
 	.container2 .card {
 		width: 400px;
 	}
+}
+
+#FirstDelivery {
+	height: 100vh;
+}
+
+.container ul {
+	margin-left: 50px;
+	box-sizing: border-box;
+}
+
+.container ul li {
+	padding: 10px;
+	list-style: none;
+	color: #e6ddddda;
+}
+.container ul li:before {
+	content: "\26EF";
+	color: #cca4a4;
+	margin-right: 20px;
+}
+#spanex {
+	background-color: #9672e996;
+	border-radius: 10px;
+	padding: 4px 8px;
+}
+#spanex2 {
+	background-color: #72aae996;
+	border-radius: 10px;
+	padding: 4px 8px;
+}
+#spanex3 {
+	background-color: #bd72e996;
+	border-radius: 10px;
+	padding: 4px 8px;
+}
+#first {
+	background-color: #55aabf9a;
+	font-weight: 600;
+	padding: 4px 8px;
+	border-radius: 10px;
 }
