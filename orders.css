@@ -378,7 +378,11 @@ h2 {
 	}
 }
 
+/* SECTIONS */
 #FirstDelivery {
+	height: 100vh;
+}
+#orders {
 	height: 100vh;
 }
 
@@ -417,4 +421,7 @@ h2 {
 	font-weight: 600;
 	padding: 4px 8px;
 	border-radius: 10px;
+}
+ol {
+	margin-left: 80px;
 }
