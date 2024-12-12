@@ -463,3 +463,11 @@ h3 {
 .bold {
 	font-weight: 700;
 }
+.arrow {
+	display: flex;
+	justify-content: end;
+}
+.arrow a {
+	background-color: hsla(0, 12%, 97%, 0.041);
+	padding: 3px 6px;
+}
