@@ -4,6 +4,11 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="orders.css" />
+		<script
+		src="https://code.jquery.com/jquery-3.7.1.min.js"
+		integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+		crossorigin="anonymous"
+	></script>
 		<title>Document</title>
 	</head>
 	<body>
@@ -227,7 +232,8 @@
 						Here you can find the most important rules in the process:					
 					</p>
 					<ul>
-						<li>Purchase orders placed by Flora includes (one Purchase order per delivery):
+						<li>One Purchase order (called PO) per delivery placed by Flora. Purchase order includes <button id="batonik">Click</button>
+							<div id="oils_per_supplier">
 							<ol>
 								<li>Purchase order number (in short called PO).</li>
 								<li>Our contract number (starts with 460...)</li>
@@ -240,14 +246,46 @@
 								<li>Incoterm.</li>
 								<li>Example of the PO (Purchase order) <a href="">Click</a></li>
 							</ol>
+						</div>
 						</li>
 						<li>
 							Supplier has to confirm the receipt of the PO (Purchase order) as soon as possible in a preferable way.
+						</li>
+						<li>
+							Supplier has to inform Upfield if any details are missing or incorrect on the Purchase order (to avoid invoicing issues).
+						</li>
+
+					</ul>
+
+					<h3>Other Rules</h3>
+					<ul>
+						<li>Any amendments done to contracts due to e.g. price or delivery period changes, need to be confirmed by both parties before any amendments to the contract are made. 
+						</li>
+						<li>
+							Supplier to submit contract balance overview every <span id="spanex3">Monday</span> to make sure contract positions are aligned. The overview shall include: <button id="batonik2">Click</button>
+							<div id="oils_per_supplier2">
+							<ol>
+								<li>Contract number</li>
+								<li>Validity period</li>
+								<li>Material number and description</li>
+								<li>Contracted volume</li>
+								<li>Open balance</li>
+								<li>Unit price and currency</li>
+								<li>Upfield entity/plant description to bill to</li>
+								<li>Incoterms</li>
+								<li>Loading location</li>
+							</ol>
+						</div>
+						</li>
+						<li>
+							Supplier to provide contact details of <span class="bold">Account Manager, Sales Representative, Logistics, Customer Service, Quality Department</span> (email & phone number with the function).
 						</li>
 
 					</ul>
 				</div>
 			</section>
 		</main>
+
+		<script src="orders.js"></script>
 	</body>
 </html>

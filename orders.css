@@ -425,3 +425,41 @@ h2 {
 ol {
 	margin-left: 80px;
 }
+#oils_per_supplier {
+	display: none;
+}
+#oils_per_supplier2 {
+	display: none;
+}
+
+#batonik {
+	padding: 3px 6px;
+	border: none;
+	border-radius: 5px;
+	background-color: #f9f971c0;
+	cursor: pointer;
+	color: black;
+}
+#batonik:hover {
+	transform: scale(0.9);
+	transition: 0.4s ease;
+}
+#batonik2 {
+	padding: 3px 6px;
+	border: none;
+	border-radius: 5px;
+	background-color: #f9f971c0;
+	cursor: pointer;
+	color: black;
+}
+#batonik2:hover {
+	transform: scale(0.9);
+	transition: 0.4s ease;
+}
+h3 {
+	color: #e6dddd;
+	margin-top: 50px;
+}
+.bold {
+	font-weight: 700;
+}
